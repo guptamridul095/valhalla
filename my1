@@ -1,0 +1,8 @@
+#!/bin/bash 
+mult=1
+for i in `seq 1 $1`
+do
+	mult=$((mult*i))
+done
+echo $mult
+
